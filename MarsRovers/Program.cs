@@ -5,6 +5,12 @@ using System.Text.RegularExpressions;
 
 namespace MarsRovers
 {
+
+    /// <summary>
+    /// Thanks for taking the time to review my solution to the Mars Rovers problem!  This design is a user-friendly CLI that handles
+    /// a variaty of inputs, checking for validity at every step.  The program assumes that the driver will NOT drive the rover past
+    /// the grid bounds, but is prepared for this scenario nonetheless...
+    /// </summary>
     class Program
     {
         static ExplorationGrid Grid;
