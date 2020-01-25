@@ -8,6 +8,6 @@ namespace MarsRovers
     {
         public int EastCoordinate { get; set; }
         public int NorthCoordinate { get; set; }
-        public char Heading { get; set; }
+        public string Heading { get; set; }
     }
 }
